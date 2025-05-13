@@ -7,7 +7,7 @@
   
   body {
     font-family: 'Segoe UI', sans-serif;
-    background: #f4f4f4;
+    background: #b7c7d1;
     color: #333;
     scroll-behavior: smooth;
   }
@@ -58,16 +58,25 @@
     object-fit: cover;
   }
   
+  .social-links {
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;
+    gap: 1.5rem;               /* spacing between icons */
+    margin-top: 1rem;
+  }
+  
   .social-links a {
-    margin-right: 1rem;
     font-size: 1.5rem;
     color: #1e1e2f;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, transform 0.3s ease;
   }
   
   .social-links a:hover {
     color: #4b6cb7;
+    transform: scale(1.2);
   }
+  
   
   /* Skills */
   #skills {
@@ -102,7 +111,7 @@
     margin: 1rem auto;
     padding: 1.5rem;
     border-radius: 12px;
-    max-width: 600px;
+    max-width: 1200px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   
