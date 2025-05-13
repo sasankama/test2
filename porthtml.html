@@ -1,78 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="portcss.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Creative Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>My Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="about">
-        <div class="about-content">
-            <img src="your-profile.jpg" alt="Profile Photo" class="profile-pic">
-            <div>
-                <h2>About Me</h2>
-                <p>Hello! I'm a web developer passionate about building interactive, user-friendly websites and applications. I enjoy turning complex problems into simple, beautiful designs. When I'm not coding, you can find me sketching or exploring new tech tools.</p>
-                <div class="social-links">
-                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Git & GitHub</li>
+  <header>
+    <div class="container">
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-    </section>
+      </nav>
+    </div>
+  </header>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Portfolio Website</h3>
-            <p>A responsive personal portfolio built with HTML, CSS, and JavaScript.</p>
-            <a href="#" target="_blank">View Project</a>
+  <section id="about">
+    <div class="about-content">
+      <img src="your-profile.jpg" alt="Profile Photo" class="profile-pic">
+      <div>
+        <h2>About Me</h2>
+        <p id="typing-text"></p>
+        <div class="social-links">
+          <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
-        <div class="project">
-            <h3>To-Do App</h3>
-            <p>A simple and elegant to-do list app with local storage and animations.</p>
-            <a href="#" target="_blank">View Project</a>
-        </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>I'd love to hear from you! Reach out via email or through my socials.</p>
-        <p><strong>Email:</strong> ssbkmlshn123@gmail.com</p>
-    </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
 
-    <footer>
-        <p>&copy; 2024 My Portfolio. Built with ❤️</p>
-    </footer>
-    <script src="portjs.js"></script>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A modern, responsive portfolio site.</p>
+      <a href="#" class="button">View Project</a>
+    </div>
+    <div class="project">
+      <h3>To-Do App</h3>
+      <p>A clean, interactive to-do list app with local storage.</p>
+      <a href="#" class="button">View Project</a>
+    </div>
+  </section>
 
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out!</p>
+    <p>Email: <strong>ssbkmlshn123@gmail.com</strong></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 My Portfolio. Built with ❤️</p>
+  </footer>
+
+  <button id="scrollToTopBtn">↑</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
