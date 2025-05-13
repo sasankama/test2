@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -7,9 +7,9 @@ body {
 }
 
 header {
-    background: #333;
+    background-color: #1e1e2f;
     color: white;
-    padding: 1rem;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -19,8 +19,8 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    display: inline-block;
+    margin: 0 1rem;
 }
 
 nav ul li a {
@@ -28,25 +28,53 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
-    padding: 20px;
-    text-align: center;
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.social-links a {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    color: #1e1e2f;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #1e1e2f;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 20px;
 }
 
 .project {
     background: white;
-    margin: 10px;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 footer {
-    background: #333;
+    background: #1e1e2f;
     color: white;
     text-align: center;
-    padding: 1rem;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+    padding: 1rem 0;
+    margin-top: 2rem;
 }
